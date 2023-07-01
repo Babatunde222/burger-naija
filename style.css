@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.tim {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  float: left;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  list-style-type: none;
+  padding-left: 800px;
+}
+
+header {
+  background-image: url(./assets/burger-bcg.jpg);
+  padding-bottom: 50px;
+  padding-top: 300px;
+  background-position: center;
+  position: relative;
+  top: 0px;
+}
+
+.header-text {
+  padding-left: 500px;
+  position: relative;
+  bottom: 100px;
+  color: aqua;
+  font-size: 30px;
+}
+.header-button {
+  padding-left: 550px;
+  position: relative;
+  bottom: 100px;
+}
+.change {
+  color: white;
+  font-size: 30px;
+  border-radius: 4px;
+  background-color: gray;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.quote {
+  background-color: rgb(53, 52, 52);
+  color: white;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  font-weight: lighter;
+}
+
+#about {
+  text-align: justify;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-justify: auto;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  line-height: 2;
+}
+
+.intro {
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  width: calc(100% / 2);
+  height: calc(100% / 2);
+}
+
+.quotes {
+  background-color: rgb(49, 176, 133);
+  margin-bottom: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  font-weight: lighter;
+}
+
+#contact {
+  text-align: center;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(245, 247, 250);
+}
+
+input[type="Email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(245, 247, 250);
+}
+
+textarea[id="comments"],
+select {
+  width: 100%;
+  padding: 100px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(245, 247, 250);
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+}
+
+.appearance {
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  text-align: left;
+  font-weight: lighter;
+}
+
+#footer {
+  background-color: grey;
+  border-radius: 4px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  color: white;
+  text-align: center;
+}
