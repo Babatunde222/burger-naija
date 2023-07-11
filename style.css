@@ -2,31 +2,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-.tim {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-  float: left;
-}
-
 .choice {
   display: flex;
   flex-direction: row;
-  text-decoration: none;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
   list-style-type: none;
   padding-left: 800px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 95%;
+  margin: auto;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(72, 66, 66);
+}
+
+.menu {
+  font-size: x-large;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+}
+
+body {
+  position: relative;
 }
 
 header {
   background-image: url(./assets/burger-bcg.jpg);
-  padding-bottom: 50px;
-  padding-top: 300px;
+  padding-bottom: 200px;
+  padding-top: 200px;
   background-position: center;
-  position: relative;
-  top: 0px;
+  margin-top: 100px;
+  height: 150px;
 }
 
 .header-text {
@@ -43,12 +68,17 @@ header {
 }
 .change {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 4px;
-  background-color: gray;
+  background-color: rgb(53, 52, 52);
   font-weight: 100;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+  border-width: 95%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .quote {
@@ -145,7 +175,7 @@ select {
 
 input[type="submit"] {
   width: 100%;
-  background-color: grey;
+  background-color: rgb(40, 39, 39);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -161,10 +191,12 @@ input[type="submit"] {
   font-size: larger;
   text-align: left;
   font-weight: lighter;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 #footer {
-  background-color: grey;
+  background-color: rgb(40, 39, 39);
   border-radius: 4px;
   padding: 14px 20px;
   margin: 8px 0;
